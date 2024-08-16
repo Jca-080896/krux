@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    
+
+}
+
+
+
+.banner{
+   
+    background: url(/proyectos/proyecto-krux/img/fondo3.jpg);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    
+}
+.banner h2{
+    font-size: 80px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1em;
+}
+
+.paquetes{
+    background-image: url(../proyecto-krux/img/fondo2.jpg);
+    
+    background-size: cover;
+    
+
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/* Contenedores de las secciones de cada pagina */
+.contenedor{
+    background-color:#fff;
+    height: 70vmin;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+}
+
+.contenedorcontact{
+    background-image: url(img/fondo4.jpg);
+    
+    height: 70vmin;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+}
+
+.contenedorgale{
+    background-image: url(img/fondo3.jpg);
+    height: 70vmin;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+}
+
+.contenedorpaqypre{
+    background-image: url(img/fondo2.jpg);
+    
+    height: 70vmin;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+}
+
+.contenedorquien{
+    background-image: url(img/fondo5.jpg);
+    height: 70vmin;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+}
+
+.contenedor{
+
+    background-color: #f7941f;
+    height: 70vmin;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+}
+.contenedor img {
+    justify-content:center;
+    margin-left: 30vmin;
+    max-width: 60em;
+    max-height:40em ;
+}
+.texto{
+    
+    align-items: center;
+    padding: 6em;
+    justify-content: center;
+}
+.imagen{
+    
+    background-color: rgb(176, 65, 65);
+    max-height: 500px;
+    max-width: 900px;
+
+}
+.imagen-inicio{
+    
+    background-color: rgba(13, 203, 241, 0.807);
+    margin-left: 20vmin;
+
+    
+}
+.contenedor-sinimagen{
+    height: 70vmin;
+    
+    align-items: center;
+    display: flex;
+}
+
+
+.galery-container{
+    width: 80%;
+    margin: 100px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 300px);
+    margin-top: 120px;
+}
+.galery-container .galery-card{
+    overflow: hidden;
+    margin: 10px;
+    border-radius: 10px;
+}
+.galery-container .galery-card a{
+    width: 100%;
+    height: 100%;
+}
+.galery-container .galery-card a > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+
+
+}
+.galery-container .galery-card a > img:hover
+{
+    transform: scale(1.5) rotate(20deg);
+}
+
+#pricing{
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    margin-top: 150px;
+    height: 350px;
+
+}
+.precio{
+    position: relative;
+}
+.dolar{
+    position: absolute;
+     left: 15px;
+     color: #ccc;
+}
+
+.numero{
+    font-size: 50px;
+    color: #02b5f6;
+}
+.mes{
+    color: #ccc;
+    font-size: 15px;
+
+}
+
+.tabla{
+    background-color: #fff;
+    padding: 30px;
+
+}
+
+.caracteristicas{
+    font-size: 14px;
+    color: #ccc;
+}
+
+.comprar{
+    background: #f7941f;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 22px;
+    margin-top: 28px;
+    display: inline-block;
+}
+
+.numero2{
+    color: #00a551;
+}
+
+.numero3{
+    color: #fdcb0a;
+}
+#tabla2{
+    position: relative;
+    box-shadow: 1px 11px 12px #ccc;
+}
+.cuadradosup{
+    width: 195px;
+height: 40px;
+background: #fff;
+position: absolute;
+top: 210px;
+box-shadow: -2px -4px 5px #ccc;
+
+}
+.cuadradoinf{
+    width: 195px;
+    height: 40px;
+    background: #fff;
+    position: absolute;
+    bottom: -40px;
+    left: 0px;
+    box-shadow: 1px 10px 15px #ccc;
+}
+
+
+
+/* comentarios */
+.container-form{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 50px;
+    margin-top: 90px;
+}
+.container-form h2{
+    margin-bottom: 15px;
+    font-size: 35px
+}
+.container-form p{
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+.container-form a{
+    font-size: 17px;
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    margin-bottom: 15px;
+    color: black;
+    font-weight: 700;
+}
+.container-form a i{
+    color: orange;
+    margin-right: 10px;
+
+}
+.container-form form .campo, textarea{
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 16px;
+    border: 1px solid #dbdbdb;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    outline: 0px;
+}
+.container-form form textarea{
+    max-width: 530px;
+    min-width: 530px;
+    min-height: 140px;
+    max-height: 150px;
+}
+.container-form .btn-enviar{
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    outline: 0px;
+    background: orange;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+.container-form .btn-enviar:hover{
+    background: #e39403;
+}
+
+
+/* seccion de nosotros */
+
+.nosotros{
+    background: #fff;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.nosotros .content-nosotros{
+    position: relative;
+    text-align: center;
+    width: 100%;
+
+}
+
+.mx800p{
+    max-width: 800px;
+    margin: 0 auto;
+
+}
+
+.btn-nosotros{
+    display: inline-block;
+    background: #e39403;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+
+}
+
+.mx800p h3{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 10px;
+
+
+}
+
+.mx800p p{
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+
+}
+
